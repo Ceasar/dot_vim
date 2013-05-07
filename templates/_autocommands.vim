@@ -16,3 +16,8 @@ augroup comments
     autocmd FileType javascript nnoremap <buffer> <localleader>c I--
     autocmd FileType python     nnoremap <buffer> <localleader>c I#
 augroup END
+
+augroup wrap
+    " turn-on distraction free writing mode for markdown files
+    autocmd BufNewFile,BufRead *.txt set wrap
+augroup END

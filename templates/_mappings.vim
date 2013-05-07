@@ -2,25 +2,31 @@
 " Mappings
 "====================================
 
-noremap <up> <nop>
-noremap <down> <nop>
-noremap <left> <nop>
-noremap <right> <nop>
-
-let mapleader = "\\"
+let mapleader = ","
 " let maplocalleader = "\\"
 
 inoremap jk <esc>
-inoremap <leader><space> <esc>
+" This is commeneted because ', ' is frequently typed!
+" inoremap <leader><space> <esc>
 
-nnoremap <leader>ev :split $MYVIMRC<cr>
-nnoremap <leader>sv :source $MYVIMRC<cr>
+" nnoremap <leader>ev :split $MYVIMRC<cr>
+" nnoremap <leader>sv :source $MYVIMRC<cr>
 
+" Fix misspelled words
+inoremap <leader>= <esc>[s1z=`]a
+
+" Surrounds
 nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
 nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
 nnoremap <leader>( viw<esc>a)<esc>hbi(<esc>lel
 nnoremap <leader>) viw<esc>a)<esc>hbi(<esc>lel
 
+" Convenience
 nnoremap H ^
 nnoremap L $
 
+" Training
+noremap <up> <nop>
+noremap <down> <nop>
+noremap <left> <nop>
+noremap <right> <nop>
