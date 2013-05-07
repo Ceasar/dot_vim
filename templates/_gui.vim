@@ -13,7 +13,7 @@ set mouse=a
 
 set background=dark "use colors which look good on a light background
 
-colorscheme solarized
+silent! colorscheme solarized
 " let g:solarized_contrast="high"
 if exists("&colorcolumn")
     "color of ruler @ 80 col, 2=green, 0=light gray
