@@ -1,6 +1,7 @@
 set shell=/bin/bash
 
-call pathogen#infect()
+" try to use pathogen
+silent! call pathogen#infect()
 
 "Use Vim defaults
 set nocompatible
