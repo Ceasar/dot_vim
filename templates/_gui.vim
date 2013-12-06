@@ -11,7 +11,7 @@
 "   a   All four modes modes
 set mouse=a
 
-set background=dark "use colors which look good on a light background
+set background=light "use colors which look good on a light background
 
 silent! colorscheme solarized
 " let g:solarized_contrast="high"
