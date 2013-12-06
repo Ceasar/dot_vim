@@ -10,5 +10,8 @@ set incsearch
 " While searching, the case of normal letters is ignored.
 set ignorecase
 
+" Adjust case of match based on typed text
+set infercase
+
 " Ignore case when the patterns contains lowercase letters only.
 set smartcase
