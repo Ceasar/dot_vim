@@ -18,4 +18,4 @@ all: .vimrc
 	cat $(SRCS) > .vimrc
 
 install: .vimrc
-	ln -is .vimrc ~/.vimrc
+	ln -is $(CURDIR).vimrc ~/.vimrc
