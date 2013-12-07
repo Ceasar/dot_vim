@@ -29,3 +29,13 @@ function! Strip()
     %s/\s\+$//e
     call cursor(l, c)
 endfunction
+
+" Configure vim for polling apps
+function! Poll()
+    " Do not make a backup before overwriting a file
+    set nobackup
+    " Do not make a backup before overwriting a file
+    set nowritebackup
+    " Don't create swapfiles
+    set noswapfile
+endfunction
