@@ -17,7 +17,6 @@ set background=light
 " Try to use solarized
 silent! colorscheme solarized
 if exists("g:colors_name") &&  g:colors_name  ==? "solarized"
-    set background=dark
     let g:solarized_contrast="high"
 endif
 
