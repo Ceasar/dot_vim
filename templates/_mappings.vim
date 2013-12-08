@@ -12,9 +12,6 @@ inoremap jk <esc>
 " nnoremap <leader>ev :split $MYVIMRC<cr>
 " nnoremap <leader>sv :source $MYVIMRC<cr>
 
-" Fix misspelled words
-inoremap <leader>= <esc>[s1z=`]a
-
 " Surrounds
 nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
 nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel

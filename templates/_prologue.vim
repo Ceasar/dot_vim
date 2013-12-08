@@ -21,9 +21,6 @@ filetype indent on
 set backupdir=~/.tmp
 set directory=~/.tmp
 
-set spell spelllang=en_us " enable spell-check
-set dictionary="/usr/share/dict/words"
-
 " Allow hidden buffer
 set hidden 
 
