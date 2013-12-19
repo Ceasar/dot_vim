@@ -24,10 +24,4 @@ set directory=~/.tmp
 " Allow hidden buffer
 set hidden 
 
-" Command-line completion operates in an enhanced mode. On pressing
-" 'wildchar' (usually <Tab>) to invoke completion, the possible matches are
-" shown just above the command line, with the first match highlighted
-" overwriting the status line if there is one.)
-set wildmenu
-
 set backspace=indent,eol,start  " backspace through everything in insert mode
