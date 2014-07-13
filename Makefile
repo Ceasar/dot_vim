@@ -15,7 +15,7 @@ SRCS = $(SRC)_prologue.vim \
 
 all: .vimrc
 
-.vimrc: $(SRC)
+.vimrc: $(SRCS)
 	cat $(SRCS) > .vimrc
 
 install: .vimrc
