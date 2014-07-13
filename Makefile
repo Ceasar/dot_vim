@@ -10,6 +10,7 @@ SRCS = $(SRC)_prologue.vim \
 	   $(SRC)_mappings.vim \
 	   $(SRC)_search.vim \
 	   $(SRC)_spell.vim \
+	   $(SRC)_vendor.vim \
 
 
 all: .vimrc
