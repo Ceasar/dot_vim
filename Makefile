@@ -13,7 +13,11 @@ SRCS = $(SRC)_prologue.vim \
 	   $(SRC)_vendor.vim \
 
 
-all: .vimrc
+all: .vimrc .vim/bundle
+
+.vim/bundle:
+	git submodule init
+	git submodule update
 
 .vimrc: $(SRCS)
 	cat $(SRCS) > .vimrc
